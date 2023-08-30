@@ -30,10 +30,6 @@ public class FileEx05_풀이 {
 			try {
 				fr = new FileReader(file);
 				br = new BufferedReader(fr);
-				
-//				names[0] arr[0];
-//				pws[0] arr[1];
-//				moneys[0] arr[2];
 
 				String data = br.readLine();
 				String[] arr = data.split("/");
